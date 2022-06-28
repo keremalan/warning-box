@@ -1,0 +1,113 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    margin: 1vw;
+}
+
+.session-topic {
+    align-items: center;
+    margin: 10% 10%;
+    padding: 1vw;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 11px #CCCCCC;
+    border-radius: 6px;
+}
+
+.session-topic-target-box {
+    width: 80vw;
+}
+
+.session-topic-target-slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 30px;
+    height: 2vw;
+    background-color: blue;
+}
+
+.session-topic-target-slider-dot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%;
+    color: white;
+    width: 4vw;
+    height: 2vw;
+    border-radius: 30px;
+    background-color: rgba(17, 147, 194, 0.739);
+}
+
+.slider-dot-warning {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.checkbox-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.checkbox-list > .checkbox-list-item > label {
+    font-size: 1vw;
+}
+
+.none {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.slider-dot-warning-box-context {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1vw;
+    height: 5vw;
+    width: 20vw;
+    margin-left: 1vw;
+    border: 1px solid blue;
+}
+
+.checkbox-reason-textarea {
+    width: 19vw;
+    height: 2vw;
+    margin-top: 1vw;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding-left: 0.4vw;
+    margin-bottom: 1vw;
+}
+
+.slider-dot-warning-box-check {
+    color: black;
+}
+
+.session-topic-target-slider-dot-warning-icon {
+    height: 1.4vw;
+    width: 1.4vw;
+    color: white;
+    margin-left: 2vw;
+}
+
+@media only screen and (max-width: 900px) {
+    .slider-dot-warning {
+        flex-direction: row-reverse;
+    }
+
+    .slider-dot-warning-box-context {
+        position: absolute;
+        left: -22vw;
+        top: -3vw;
+        height: 6vw;
+    }
+}
